@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/homepage"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"/>
+
+    <item
+        android:id="@+id/communitypage"
+        android:title="Community"
+        android:icon="@drawable/bottom_community_icon"/>
+
+    <item
+        android:enabled="true"
+        android:title=""/>
+
+    <item
+        android:id="@+id/trendingpage"
+        android:title="Popular"
+        android:icon="@drawable/baseline_trending_up_24"/>
+
+    <item
+        android:id="@+id/downloadpage"
+        android:title="Download"
+        android:icon="@drawable/bottom_download_for_offline_"/>
+
+</menu>

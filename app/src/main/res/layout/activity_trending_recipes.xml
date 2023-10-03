@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.TrendingRecipesActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar_trending_recipes"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/orange"
+        android:elevation="4dp"
+        android:theme="?attr/actionBarTheme">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="All Recipes"
+                android:fontFamily="@font/poppins_bold"
+                android:layout_marginLeft="7dp"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginTop="13dp"/>
+
+            <Spinner
+                android:id="@+id/spinner_tags"
+                android:gravity="center"
+                android:layout_alignParentEnd="true"
+                android:entries="@array/tags"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <androidx.cardview.widget.CardView
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="#CCC8C7"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:cardCornerRadius="17dp">
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchView_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:foregroundTint="#07FFFFFF"
+            app:iconifiedByDefault="false"
+            app:queryHint="Search a recipe!"/>
+
+    </androidx.cardview.widget.CardView>
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_random"
+        android:layout_margin="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

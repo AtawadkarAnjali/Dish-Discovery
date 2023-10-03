@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "599583439790",
+    "project_id": "dish-discovery-930b5",
+    "storage_bucket": "dish-discovery-930b5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599583439790:android:a030811ba1ec3fcd77263f",
+        "android_client_info": {
+          "package_name": "com.myapps.appdd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGmykYA3EyNepg1iqAmYH7AQ6SnOi0B1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

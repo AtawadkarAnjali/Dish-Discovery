@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TrendingPageFragment"
+    android:background="@color/black">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/img_1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Discover Popular Recipes"
+
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_width="118dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="65dp"
+        android:rotation="-8"
+        android:src="@drawable/img_2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Whether you are a beginner learning to
+cook or a seasoned chef searching for inspiration, explore our
+trending recipes and embark on a culinary journey. Explore popular
+recipes from every corner of the world !"
+        android:padding="13dp"
+        android:textColor="@color/white"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="220dp"/>
+
+    <Button
+        android:id="@+id/pop_recipes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="DISCOVER NOW"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        />
+
+</FrameLayout>
